@@ -6,15 +6,13 @@ import json
 import datetime
 
 # ************************************************************* #
-# database_path = os.environ['DATABASE_URL']
-
-# db = SQLAlchemy()
+database_path = os.environ['DATABASE_PATH']
+db = SQLAlchemy()
 # ************************************************************* #
 
-database_name = "agencyspecifications"
-database_path = "postgres://{}:{}@{}/{}".format('postgres', 'postgres', 'localhost:5432', database_name)
-
-db = SQLAlchemy()
+# database_name = "agencyspecifications"
+# database_path = "postgres://{}:{}@{}/{}".format('postgres', 'postgres', 'localhost:5432', database_name)
+# db = SQLAlchemy()
 
 
 # DATABASE_PATH = os.getenv('DATABASE_PATH')
