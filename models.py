@@ -6,7 +6,7 @@ import json
 import datetime
 
 # ************************************************************* #
-database_path = os.environ['DATABASE_PATH']
+database_path = os.environ['DATABASE_URL']
 db = SQLAlchemy()
 # ************************************************************* #
 
