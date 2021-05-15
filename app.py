@@ -195,6 +195,8 @@ def create_app(test_config=None):
             "message": error.error
             }), error.status_code
 
-    if __name__ == '__main__':
-        app.run()
     return app
+
+app = create_app()
+if __name__ == '__main__':
+    app.run()
